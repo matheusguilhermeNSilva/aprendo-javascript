@@ -33,3 +33,10 @@ saldo +=200;//deposito
 saldo-=50; //saque
 console.log("meu saldo atual e R$"+saldo) ;
 
+// 6. Média de notas 
+let matematica = 8;
+let portugues = 7;
+let ciencia=9
+let media =( matematica + portugues+ ciencia) /3;
+console.log("minha media e "+ media);
+
