@@ -40,3 +40,49 @@ let ciencia=9
 let media =( matematica + portugues+ ciencia) /3;
 console.log("minha media e "+ media);
 
+// 7. Reajuste de salário 
+
+let salarioReajuste = 3000;
+
+let novoSalario = salarioReajuste * 1.10;
+
+console.log("Após um aumento de 10%, o novo salário é R$ " + novoSalario);
+
+ 
+// 8. Contador de cliques
+let cliques = 0;
+console.log("Cliques: " + cliques);
+
+cliques = 1; // 1º clique
+console.log("Cliques: " + cliques);
+
+cliques = 2; // 2º clique
+console.log("Cliques: " + cliques);
+
+cliques = 3; // 3º clique
+console.log("O botão foi clicado " + cliques + " vezes.");
+
+ 
+
+// 9. Constantes não podem ser alteradas 
+
+const PI = 3.14; 
+
+// PI = 3.1415; // ❌ Isso causaria erro pois constantes não podem ser modificadas 
+
+console.log("PI é uma constante e não pode ser alterada: " + PI); 
+
+ 
+
+// 10. Concatenando tipos diferentes 
+
+let mensagem = "O número é "; 
+
+let numero = 42; 
+
+let combinado = mensagem + numero; 
+
+console.log(combinado); // "O número é 42" 
+
+console.log(typeof combinado); // string 
+
