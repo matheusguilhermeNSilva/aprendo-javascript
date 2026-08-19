@@ -31,3 +31,27 @@ console.log("aluna foi reprovada por faltas ?"+(totalFaltas>limiteFaltas));
 let temLogin=true
 let temSenha=true
 console.log("precisa de login ou senha ?"+(temLogin && temSenha));
+
+// valor negado 
+let disponovel= true
+console.log("valor esta disponivel ?"+(!disponovel));
+
+//condicao composta
+let numero1=4;
+let numero2=4;
+
+console.log( 
+    numero1 % 2 === 0 &&
+    numero2 %2 === 0 &&
+    numero1 === numero2
+);
+
+//calcular de porcentagem
+let total =120;
+let porcentagem= total * 0.25;
+console.log("25% de 120 é ?"+ (porcentagem));
+
+//ordem de operações
+let resultado = 2 + 3 * 5; 
+
+console.log("Resultado da expressão 2 + 3 * 5: " + resultado); 
