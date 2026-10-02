@@ -54,4 +54,18 @@ console.log("25% de 120 é ?"+ (porcentagem));
 //ordem de operações
 let resultado = 2 + 3 * 5; 
 
-console.log("Resultado da expressão 2 + 3 * 5: " + resultado); 
+console.log("Resultado da expressão 2 + 3 * 5: " + resultado);
+
+//desafio laço de repetição
+let TotalDeNumeroPares=0;
+let TotalDeNumeroImpares=0;
+for (let numero=0;numero<=100;numero++){
+    if (numero%2===0){
+        console.log("numero par: " + numero);
+        TotalDeNumeroPares++;
+    }else {
+        console.log("numero impar: " + numero);
+        TotalDeNumeroImpares++;
+    }
+}
+let contador=0;
